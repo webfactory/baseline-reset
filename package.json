@@ -1,8 +1,7 @@
 {
   "name": "@webfactoryde/baseline-reset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern CSS Baseline Reset",
-  "main": "baseline-reset.scss",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webfactory/baseline-reset.git"

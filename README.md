@@ -16,4 +16,4 @@ npm install @webfactoryde/baseline-reset
 
 ## Usage
 
-Use `@import` or `@use` to include this reset in your project's SCSS pipeline.
+Use `@import '@webfactoryde/baseline-reset'` or `@use '@webfactoryde/baseline-reset'` to include this reset in your project's SCSS pipeline.
