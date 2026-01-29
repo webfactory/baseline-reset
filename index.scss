@@ -29,12 +29,6 @@ dd {
     margin: 0;
 }
 
-// Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed
-ul[role='list'],
-ol[role='list'] {
-    list-style: none;
-}
-
 // Reset margin and padding on lists
 ul,
 ol {
@@ -42,9 +36,16 @@ ol {
     margin-bottom: 0;
     padding-left: 0;
 
-    &:not([class]) {
+    &:where(:not([class])) {
         padding-left: 1.25em;
     }
+}
+
+// Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+    padding-left: 0;
 }
 
 // Bullets and numbering match text color
