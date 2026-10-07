@@ -91,7 +91,7 @@ video {
 }
 
 // Inherit fonts for inputs and buttons
-// Inherit color: iOS Safari renders button, select and date/time inputs in -apple-system-blue
+// Inherit color: by default, iOS Safari renders button, select and date/time inputs in -apple-system-blue, not in body color
 //  src: https://github.com/WebKit/WebKit/blob/b35e6240cfc8c5496fe7c9fc8eecdfe018d892f5/Source/WebCore/css/html.css#L868-L881
 input,
 button,
